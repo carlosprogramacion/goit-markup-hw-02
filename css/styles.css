@@ -25,29 +25,29 @@ header {
 a {
     text-decoration: none;   
 }
-.navegacion {  
+.navigation {  
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
 }
-.navegacion .titulos:hover {
+.navigation .titles:hover {
     color: var(--navegacion);    
 } 
-.titulos {
-    text-decoration: none;
+.titles {
+        text-decoration: none;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
 }
-.pie {
-    text-decoration: none;
+.foot {
+        text-decoration: none;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
 }
-.pie:hover {
+.foot:hover {
     color: var(--navegacion);
 }
 
-.titulos {
+.titles {
     color: #212121;       
 }
 .btn {
@@ -91,12 +91,12 @@ p {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 }
-.negocios {
+.business {
     color: var(--textitulos);
     font-family: 'Roboto', sans-serif;
         font-weight: 400; 
 }
-.negocios:hover {
+.business:hover {
     color: var(--navegacion);
 }
 
