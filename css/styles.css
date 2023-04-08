@@ -14,41 +14,88 @@ body {
     font-family: 'Roboto', sans-serif;
 
 }
-.logo {
-    color: var(--navegacion);
-}
+
 header {
     background-color: var(--fondo1);
     color: var(--textitulos);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    width: 1600px; 
+}
+footer {
+    background-color: var(--fondo3);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--fondo1);
+    width: 1600px;
 }
 
 a {
     text-decoration: none;   
 }
-.navigation {  
-    text-decoration: none;
+h1 {
     font-family: 'Roboto', sans-serif;
-        font-weight: 500;
+        font-weight: 900;
+ } 
+ h3 {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+ }
+ h4 {
+    font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+ }
+ 
+p {
+    color: var(--texcontenido1);
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+}
+.logo {
+    color: var(--navegacion);
+}
+.main-principal {
+    background-color: var(--fondo3);
+    margin: auto 0;
+    width: 1600px;
+    height: 600px;
+}
+
+.navigation { 
+    height: 90px;
 }
 .navigation .titles:hover {
     color: var(--navegacion);    
+}
+.navigation-data { 
+    height: 50px;
+}
+.information-principal {
+    color: var(--textitulos);
 } 
-.titles {
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+.information-principal:hover {
+    color: var(--navegacion);
 }
-.foot {
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+.titles-service {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        color: var(--fondo1);
+        margin: 0 auto;
+        
 }
-.foot:hover {
+
+.titles-foot:hover {
     color: var(--navegacion);
 }
 
 .titles {
     color: #212121;       
+}
+.titles-foot {
+    color: var(--fondo1);
 }
 .btn {
     color: var(--textitulos);
@@ -69,24 +116,6 @@ color: var(--textitulos);
     color: var(--navegacion);
 }
 
- h1 {
-    font-family: 'Roboto', sans-serif;
-        font-weight: 900;
- } 
- h3 {
-    font-family: 'Roboto', sans-serif;
-        font-weight: 700;
- }
- h4 {
-    font-family: 'Roboto', sans-serif;
-     font-weight: 500;
- }
- 
-p {
-    color: var(--texcontenido1);
-    font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-}
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -99,4 +128,18 @@ font-weight: 700;
 .business:hover {
     color: var(--navegacion);
 }
+.information-address {
+    color: var(--fondo1);
+}
+.information-address:hover {
+    color: var(--navegacion);    
+} 
+.information {
+    color: var(--fondo1);
+}
+.information:hover {
+    color: var(--navegacion);
+}
+    
+
 
